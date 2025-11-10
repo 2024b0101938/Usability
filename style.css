@@ -118,4 +118,20 @@ ul {
     border-color: var(--accent-color);
     color: var(--accent-color) !important;
 }
+header{
+    padding: 50px var(--padding-inline-section);
+}
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+.header-left{
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+}
+.header-right img{
+    width: 100%;
+}
 
